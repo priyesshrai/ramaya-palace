@@ -77,11 +77,11 @@ const Banner = () => {
           showStatus={false}
           interval={2000}
           infiniteLoop={true}
-          autoPlay={true}
+          autoPlay={false}
         >
           <div className="adjust">
             {/* <img src='images/Images/img.jpeg'/> */}
-            <img src="/images/Images/slide/slide-1.jpg" />
+            <img src="/images/new-images/img-13.jpeg" />
             {/* <p className="legend">Legend 1</p> */}
           </div>
           <div>
@@ -226,9 +226,9 @@ const Banner = () => {
               <div className="col-md-5">
                 <div className="titlepage animated fadeInUp">
                   <h1>Hotel Ramay Palace Ayodhya</h1>
-                  <h3>
+                  {/* <h3>
                     <strong>300m from Shri Ram Janmbhoomi</strong>
-                  </h3>
+                  </h3> */}
                   <p>
                     We are a boutique Hotel in Ayodhya, the land of Ram
                     Janmbhoomi. We strive to provide our guests with the best
@@ -258,7 +258,7 @@ const Banner = () => {
                 <div className="about_img">
                   <figure>
                     <img
-                      src="images/Images/About-Us/about-hotel-ramay-palace.jpeg"
+                      src="images/new-images/img-13.jpeg"
                       alt="about hotel"
                     />
                   </figure>
@@ -285,7 +285,7 @@ const Banner = () => {
                   <div className="room_img animated fadeInUp">
                     <figure>
                       <img
-                        src="images/Images/Facilities/Hotel-Post-1280x854-01.jpg"
+                        src="images/Images/Facilities/1.png"
                         alt="Parking Facility"
                       />
                     </figure>
@@ -301,7 +301,7 @@ const Banner = () => {
                   <div className="room_img animated fadeInUp">
                     <figure>
                       <img
-                        src="images/Images/Facilities/Hotel-Post-1280x854-02.jpg"
+                        src="images/Images/Facilities/2.png"
                         alt="Spacious Room"
                       />
                     </figure>
@@ -317,7 +317,7 @@ const Banner = () => {
                   <div className="room_img animated fadeInUp">
                     <figure>
                       <img
-                        src="images/Images/Facilities/Hotel-Post-1280x854-03.jpg"
+                        src="images/Images/Facilities/3.png"
                         alt="Luxury & comfy room"
                       />
                     </figure>
@@ -333,7 +333,7 @@ const Banner = () => {
                   <div className="room_img animated fadeInUp">
                     <figure>
                       <img
-                        src="images/Images/Facilities/Hotel-Post-1280x854-05.jpg"
+                        src="images/Images/Facilities/4.png"
                         alt="fully AC"
                       />
                     </figure>
@@ -349,7 +349,7 @@ const Banner = () => {
                   <div className="room_img animated fadeInUp">
                     <figure>
                       <img
-                        src="images/Images/Facilities/Hotel-Post-1280x854-06.jpg"
+                        src="images/Images/Facilities/5.png"
                         alt="300m from Shri Ram Janmbhoomi"
                       />
                     </figure>
@@ -365,7 +365,7 @@ const Banner = () => {
                   <div className="room_img animated fadeInUp">
                     <figure>
                       <img
-                        src="images/Images/Facilities/Hotel-Post-1280x854-07.jpg"
+                        src="images/Images/Facilities/6.png"
                         alt="Affordable Price"
                       />
                     </figure>
