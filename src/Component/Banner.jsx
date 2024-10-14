@@ -14,33 +14,6 @@ const Banner = () => {
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
 
-  // const[name,setName]=useState("");
-  // const[email,setEmail]=useState("");
-  // const[phone,setPhone]=useState("");
-  // const[message,setMessage]=useState("");
-  // const form = useRef();
-
-  // const sendEmail = (e) => {
-  //    e.preventDefault();
-  //        try {
-  //            emailjs.sendForm('service_smjpmre', 'template_rired5p', form.current, 'TWOC87q98bmLmrTRC')
-  //        .then((result) => {
-  //            console.log(result.text);
-  //            console.log("message sent")
-  //            setName("");
-  //            setEmail("");
-  //            setPhone("");
-  //            setMessage("");
-
-  //        }, (error) => {
-  //            console.log(error.text);
-  //            console.log(error);
-  //        });
-  //        } catch (error) {
-  //            console.log(error);
-  //        }
-  //    };
-
   return (
     <>
       <Helmet>
@@ -77,7 +50,7 @@ const Banner = () => {
           showStatus={false}
           interval={2000}
           infiniteLoop={true}
-          autoPlay={false}
+          autoPlay={true}
         >
           <div className="adjust">
             {/* <img src='images/Images/img.jpeg'/> */}
@@ -101,7 +74,7 @@ const Banner = () => {
           </div>
         </Carousel>
 
-        <div className="booking_ocline ">
+        <div className="booking_ocline">
           <div className="container">
             <div className="row">
               <div className="col-md-5">

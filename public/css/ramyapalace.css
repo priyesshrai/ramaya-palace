@@ -271,10 +271,10 @@ label{margin-left: 20px;}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
     .about.home-aboutus{
-        padding-top: 885px;
+        padding-top: 570px
     }
     .booking_ocline{
-        top: 344%;
+        top: 120%;
     }
     .footer {
         background: #0f1521;
